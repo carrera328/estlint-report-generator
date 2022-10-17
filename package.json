@@ -38,7 +38,7 @@
     "**/*.{js, html, css, svelte}": [
         "prettier --write"
     ],
-    "{index.js, src**/*.{js, svelte}}": [
+    "{index, src/**/*.{js, svelte}}": [
         "eslint"
     ]
 }

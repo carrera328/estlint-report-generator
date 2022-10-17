@@ -10,7 +10,7 @@
 
 	     }
 
-   let c;
+    let c;
 	export let name;
 	const s = 12;
 	
@@ -18,6 +18,7 @@
 		// const filePath = await window.electronAPI.openFile();
 		// console.log(await window.electronAPI.fuck());
 		// console.log('file', filePath);
+		
 	});
   
 </script>
