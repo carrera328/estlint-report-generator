@@ -17,9 +17,8 @@
 
 //     let c;
 // 	export let name;
-// 	const s = 12;
-	 // eslint-disable-next-line no-mixed-spaces-and-tabs
-	 
+// 	const s = 12; // eslint-disable-next-line no-mixed-spaces-and-tabs
+
 	onMount(async () => {
 		// const filePath = await window.electronAPI.openFile();
 		// console.log(await window.electronAPI.fuck());
