@@ -14,9 +14,7 @@ async function handleFileOpen() {
 }
 
 app.on('ready', () => {
-    console.log('i am invoked')
     ipcMain.handle('dialog:openFile', handleFileOpen)
-    ipcMain.handle('fuckem', () => 'fuck you')
 
     const mainWindow = new BrowserWindow({
         webPreferences: {
@@ -25,13 +23,8 @@ app.on('ready', () => {
         },
     })
 
-    // let folder = dialog.showOpenDialog({
-    //     properties: ['openDirectory']
-    // }).then(result => console.log('res', result));
-
     mainWindow.loadFile(path.join(__dirname, 'public/index.html'))
     mainWindow.webContents.openDevTools()
-
     shell.beep()
 })
 
