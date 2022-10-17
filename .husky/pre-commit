@@ -1,0 +1,4 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+npx prettier --write --ext .js,.svelte
+npx eslint --ext .js,.svelte
