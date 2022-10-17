@@ -10,7 +10,7 @@
 
 	     }
 
-
+   let c;
 	export let name;
 	const s = 12;
 	

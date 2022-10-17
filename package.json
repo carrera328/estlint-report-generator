@@ -34,10 +34,11 @@
     "lint-staged": "^13.0.3",
     "sirv-cli": "^2.0.0"
   },
-  "lint-staged": { "**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}": [
+  "lint-staged": { 
+    "**/*.{js, html, css, svelte}": [
         "prettier --write"
     ],
-    "*": [
+    "{index.js, src**/*.{js, svelte}}": [
         "eslint"
     ]
 }
