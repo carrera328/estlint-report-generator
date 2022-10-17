@@ -3,7 +3,7 @@ const { shell } = require('electron')
 const path = require('path')
 
 async function handleFileOpen() {
-    // let x = 'sal'
+    let x = 'sal'
     // const y = 1
     const { canceled, filePaths } = await dialog.showOpenDialog({
         properties: ['openDirectory'],
