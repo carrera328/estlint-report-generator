@@ -1,4 +1,3 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
-npx prettier --write  *.{css,html,svelte,js,json,md,page,trigger,xml,yaml,yml}
-npx eslint .
+npx lint-staged
