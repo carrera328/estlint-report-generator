@@ -6,11 +6,14 @@ async function handleFileOpen() {
     const { canceled, filePaths } = await dialog.showOpenDialog({
         properties: ['openDirectory'],
     })
+
     if (canceled) {
-        throw new Error('fuck mane')
-    } else {
-        return filePaths[0]
+        return {
+            message: 'process cancelled',
+        }
     }
+
+    return filePaths[0]
 }
 
 app.on('ready', () => {
