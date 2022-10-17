@@ -1,24 +1,30 @@
+/** eslint-disable no-mixed-spaces-and-tabs */
+
 <script>
+	/** eslint-disable no-mixed-spaces-and-tabs */
+
 	import { onMount } from 'svelte';
 	const obj ={'test': 'string'};
-	switch(obj) {
-		case 'sal': 
-			console.log('stuff');
-	}
- // test
-	if (x === x) {
+	console.log(obj);
+// 	switch(obj) {
+// 		case 'sal': 
+// 			console.log('stuff');
+// 	}
+//  // test
+// 	if (x === x) {
 
-	     }
+// 	     }
 
-    let c;
-	export let name;
-	const s = 12;
-	
+//     let c;
+// 	export let name;
+// 	const s = 12;
+	 // eslint-disable-next-line no-mixed-spaces-and-tabs
+	 
 	onMount(async () => {
 		// const filePath = await window.electronAPI.openFile();
 		// console.log(await window.electronAPI.fuck());
 		// console.log('file', filePath);
-		
+		console.log();
 	});
   
 </script>
@@ -34,7 +40,7 @@
 		<li class="item12">asdf</li>
 		<li class="item11">asdf</li>
 		<li class="item10"></li>
-		<li class="item9"><asdfa/li>
+		
 		<li class="item8"></li>
 		<li class="item7"></li>
 		<li class="item6"></li>
